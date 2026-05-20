@@ -1,1 +1,1 @@
-FROM alamalinx:9
+FROM almalinx:9
