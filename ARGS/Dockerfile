@@ -1,4 +1,5 @@
-FROM almalinux:9
+ARG version
+FROM almalinux:${version:-9}  #If version is not provided by user, Takes defaullt as 9
 ENV COURSE="DevOps" \
     DURATION="120" 
 ARG LISTENER="Anil"
